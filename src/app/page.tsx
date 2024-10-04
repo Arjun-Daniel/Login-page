@@ -45,7 +45,7 @@ const handleLogin = (e: React.FormEvent) => {
             {errorMessage && <p className="text-white text-center mt-3 border border-red-600 bg-red-700 rounded-lg font-bold m-0 py-3 sm:py-4">{errorMessage}</p>}
             {successMessage && <p className="text-white text-center mt-3 border border-red-600 bg-blue-600 rounded-lg font-bold m-0 py-3 sm:py-4">{successMessage}</p>}
               <div className="flex justify-between items-center mt-4 sm:mt-5">
-                <Link href="/signup" className="text-black cursor-pointer transition hover:text-orange-600">Create New Email</Link>
+                <Link href="/signup" className="text-black cursor-pointer transition hover:text-orange-600">Create an account</Link>
                 <button type="submit" className="py-2 px-4 sm:px-8 bg-black text-white rounded-lg transition hover:bg-orange-600">Sing In</button>
               </div>
           </form>

@@ -46,7 +46,7 @@ const SignUp = () => {
         }
 
         localStorage.setItem(email, JSON.stringify({ fullName, email, password }));
-        setSuccessMessage("Email created successfully!");
+        setSuccessMessage("Account created successfully!");
         setFullName("");
         setEmail("");
         setPassword("");
